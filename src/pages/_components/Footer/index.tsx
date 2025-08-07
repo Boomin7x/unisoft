@@ -109,7 +109,7 @@ const Footer = () => {
               <li>Développement Web et Mobile</li>
               <li>Intégration de Systèmes</li>
               <li>Architecture d'Entreprise</li>
-              <li>Solutions Data et IA</li>
+              <li>Solutions Data et IA.</li>
             </ul>
           </div>
           {/* Gallery */}
