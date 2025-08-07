@@ -1,5 +1,3 @@
-import React from "react";
-
 const Typography = () => {
   return (
     <div className="flex flex-col min-h-[80vh]">

@@ -1,5 +1,3 @@
-import React from "react";
-
 const OurMissionSection = () => {
   return (
     <section className="w-full min-h-[500px] flex bg-[url(/img/bg-whychoseus.webp)] bg-cover bg-no-repeat">

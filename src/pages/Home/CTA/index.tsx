@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const CTASection = () => {
   const [isUp, setisUp] = useState(false);
