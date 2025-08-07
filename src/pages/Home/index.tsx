@@ -5,6 +5,9 @@ import rounderImage from "/img/image-rounder-right.png";
 import WhoAreWeSection from "./who-are-we";
 import WhatWeOfferSection from "./what-we-offer";
 import CTASection from "./CTA";
+import OurMissionSection from "./our-mission";
+import ContactUsSection from "./contact-us";
+import OurTeamSection from "./our-team";
 
 const HomePage = () => {
   return (
@@ -80,6 +83,9 @@ const HomePage = () => {
       <WhoAreWeSection />
       <WhatWeOfferSection />
       <CTASection />
+      <OurMissionSection />
+      <OurTeamSection />
+      <ContactUsSection />
     </>
   );
 };

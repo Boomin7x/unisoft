@@ -37,10 +37,10 @@ const WhoAreWeSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Section - Visuals */}
-          <div className="relative">
+          <div className="relative size-full ">
             {/* Main Image */}
-            <div className="relative z-10">
-              <div className="w-80 h-96 bg-gradient-to-br from-gray-200 to-gray-300 rounded-lg relative overflow-hidden">
+            <div className="absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2">
+              <div className="w-[28rem] aspect-[9/11] bg-gradient-to-br from-gray-200 to-gray-300 rounded-sm relative overflow-hidden">
                 {/* Placeholder for main image - you can replace with actual image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-gray-200 flex items-center justify-center">
                   <div className="text-center">
@@ -55,12 +55,17 @@ const WhoAreWeSection = () => {
                     </p>
                   </div>
                 </div>
+                <img
+                  alt="bg"
+                  src="/img/bg-slide-1.webp"
+                  className="absolute inset-0 h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Smaller Image */}
-            <div className="absolute top-8 right-0 z-0">
-              <div className="w-64 h-48 bg-gradient-to-br from-gray-300 to-gray-400 rounded-lg relative overflow-hidden">
+            <div className="absolute top-1/4 right-0 z-0">
+              <div className="w-64 h-48 bg-gradient-to-br from-gray-300 to-gray-400 rounded-sm relative overflow-hidden">
                 {/* Placeholder for smaller image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-gray-300 flex items-center justify-center">
                   <div className="text-center">
@@ -73,11 +78,16 @@ const WhoAreWeSection = () => {
                     <p className="text-gray-600 text-sm font-medium">Équipe</p>
                   </div>
                 </div>
+                <img
+                  alt="bg"
+                  src="/img/bg-slide-1.webp"
+                  className="absolute inset-0 h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Blue Overlay Box */}
-            <div className="absolute bottom-8 left-4 z-20 bg-blue-600 text-white p-6 rounded-lg shadow-lg">
+            <div className="absolute bottom-1/4 left-12 z-20 bg-blue-600 text-white p-6 rounded-sm shadow-lg">
               <div className="flex items-center space-x-4">
                 <div className="flex flex-col items-center">
                   <Icon
@@ -109,7 +119,7 @@ const WhoAreWeSection = () => {
             </div>
 
             {/* Main Heading */}
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+            <h2 className="text-4xl  font-bold text-gray-900 leading-tight">
               Construites sur des{" "}
               <span className="text-blue-600">Fondations Solides</span>
             </h2>

@@ -45,18 +45,18 @@ const WhatWeOfferSection = () => {
         <div className="text-center mb-16">
           {/* Subheading */}
           <div className="flex items-center justify-center space-x-4 mb-6">
-            <div className="w-8 h-0.5 bg-blue-400"></div>
-            <span className="text-blue-400 text-sm font-semibold uppercase tracking-wider">
+            <div className="w-8 h-0.5 bg-primary"></div>
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">
               CE QUE NOUS OFFRONS
             </span>
-            <div className="w-8 h-0.5 bg-blue-400"></div>
+            <div className="w-8 h-0.5 bg-primary"></div>
           </div>
 
           {/* Main Heading */}
-          <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
+          <h2 className="text-4xl  font-bold text-white leading-tight">
             Nous offrons des services premium
             <br />
-            <span className="text-blue-300">exclusivement pour vous.</span>
+            <span className="text-primary">exclusivement pour vous.</span>
           </h2>
         </div>
 

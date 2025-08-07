@@ -31,7 +31,7 @@ const CTASection = () => {
         <h4 className="text-heading-lg max-w-xl text-white text-center">
           IT Solutions & Services Right At Your Fingertips
         </h4>
-        <Button className="mt-10 uppercase p-7 px-10">Discover More</Button>
+        <Button className="mt-10 uppercase p-7 px-10 ">Discover More</Button>
       </div>
     </section>
   );
