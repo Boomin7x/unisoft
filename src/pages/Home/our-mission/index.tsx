@@ -40,15 +40,14 @@ const OurMissionSection = () => {
       <div className="flex-1 flex flex-col justify-center px-10 py-12 ">
         <div className="max-w-2xl mx-auto">
           <span className="uppercase text-[#377dff] font-semibold tracking-wide text-base mb-2 inline-block">
-            Why Choose Us
+            Notre Mission
           </span>
           <h2 className="text-4xl  font-extrabold text-gray-900 mb-4 leading-tight">
-            Notre mission est de fournir un <br className="hidden md:block" />{" "}
-            accès numérique généralisé.
+            Simplifier la digitalisation pour une croissance durable
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            Univsoft simplifie la digitalisation pour permettre aux entreprises
-            de bénéficier de solutions innovantes qui favorisent une croissance
+            Nous simplifions la digitalisation pour permettre aux entreprises de
+            bénéficier de solutions innovantes qui favorisent une croissance
             durable et un avantage concurrentiel.
           </p>
           <div className="flex items-start gap-3 mb-4">
@@ -66,8 +65,8 @@ const OurMissionSection = () => {
             </span>
             <div>
               <span className="font-bold text-gray-900">
-                Pour votre secteur spécifique, nous avons des idées
-                intelligentes pour vos objectifs business.
+                Des solutions numériques accessibles, personnalisées et
+                efficaces pour chaque organisation.
               </span>
             </div>
           </div>
@@ -91,49 +90,49 @@ const OurMissionSection = () => {
                   />
                 </svg>
               </span>
-              Solutions sur mesure pour la transformation numérique
-            </li>
-            <li className="flex items-center gap-2 text-base text-gray-700">
-              <span className="inline-block">
-                <svg width="22" height="22" fill="none">
-                  <circle
-                    cx="11"
-                    cy="11"
-                    r="11"
-                    fill="#377dff"
-                    fillOpacity="0.15"
-                  />
-                  <path
-                    d="M7 11.5l3 3 5-5"
-                    stroke="#377dff"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-              Accompagnement personnalisé et expertise technique
-            </li>
-            <li className="flex items-center gap-2 text-base text-gray-700">
-              <span className="inline-block">
-                <svg width="22" height="22" fill="none">
-                  <circle
-                    cx="11"
-                    cy="11"
-                    r="11"
-                    fill="#377dff"
-                    fillOpacity="0.15"
-                  />
-                  <path
-                    d="M7 11.5l3 3 5-5"
-                    stroke="#377dff"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
               Croissance durable et avantage concurrentiel
+            </li>
+            <li className="flex items-center gap-2 text-base text-gray-700">
+              <span className="inline-block">
+                <svg width="22" height="22" fill="none">
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="11"
+                    fill="#377dff"
+                    fillOpacity="0.15"
+                  />
+                  <path
+                    d="M7 11.5l3 3 5-5"
+                    stroke="#377dff"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              Accompagnement sur mesure et expertise technique
+            </li>
+            <li className="flex items-center gap-2 text-base text-gray-700">
+              <span className="inline-block">
+                <svg width="22" height="22" fill="none">
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="11"
+                    fill="#377dff"
+                    fillOpacity="0.15"
+                  />
+                  <path
+                    d="M7 11.5l3 3 5-5"
+                    stroke="#377dff"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              Solutions innovantes et gestion rigoureuse des projets
             </li>
           </ul>
         </div>

@@ -20,12 +20,14 @@ const ContactUsSection = () => {
             <div className="absolute inset-0 lg:inset-14  bg-[#377dff] bg-opacity-95 rounded-sm m-8 z-10 flex flex-col justify-center items-center shadow-xl">
               <form className="w-full max-w-lg p-3 flex flex-col gap-6 z-20">
                 <h2 className="text-white text-3xl font-bold mb-2">
-                  Have Any Questions
+                  Prêt à Transformer Votre Entreprise ?
                 </h2>
                 <p className="text-white text-base mb-4">
-                  Feel free to contact us through anywhere.
+                  Discutons de la façon dont nous pouvons accélérer votre
+                  transformation numérique. Découvrez comment nos solutions
+                  innovantes peuvent propulser votre entreprise vers l'avant.
                 </p>
-                <div className="flex gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <input
                     type="text"
                     placeholder="Your Name*"
@@ -59,17 +61,16 @@ const ContactUsSection = () => {
           <div className="flex-1 flex flex-col justify-center px-10 py-12 ">
             <div className="max-w-2xl mx-auto">
               <span className="uppercase text-[#377dff] font-semibold tracking-wide text-base mb-2 inline-block">
-                Contact Us
+                Contact
               </span>
               <h2 className="text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-                Contact Us Let’s Talk <br className="hidden md:block" /> Your
-                Any Query.
+                Contactez-nous et discutons de votre projet numérique
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Avec Univsoft, nous avons décidé de changer de cap, en nous
-                lançant dans la conception de nos propres systèmes numériques.
-                Grâce à des techniques de pointe, nous visons à créer des
-                solutions qui repoussent les limites.
+                Univsoft, votre partenaire stratégique pour une transformation
+                numérique réussie. Contactez-nous pour bénéficier d'un
+                accompagnement sur mesure et découvrir comment nous pouvons
+                accélérer la croissance de votre entreprise.
               </p>
               <div className="flex items-center gap-4 mb-6">
                 <span className="inline-flex items-center px-4 py-2 bg-white rounded shadow border border-gray-200">
@@ -86,13 +87,13 @@ const ContactUsSection = () => {
                     </svg>
                   </span>
                   <span className="font-bold text-gray-900">
-                    (+237) 696 458 382
+                    +237-696-458-382
                   </span>
                 </span>
                 <span className="ml-2 text-gray-700">
-                  Or you may <span className="font-bold">Call Us</span> For
-                  Appointment
+                  contact@univ-soft.com
                 </span>
+                <span className="ml-2 text-gray-700">www.univ-soft.com</span>
               </div>
               <div className="flex items-center gap-2 mt-4">
                 <img

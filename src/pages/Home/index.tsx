@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
-import React from "react";
-import ServiceSection from "./Services/serviceSection";
-import rounderImage from "/img/image-rounder-right.png";
-import WhoAreWeSection from "./who-are-we";
-import WhatWeOfferSection from "./what-we-offer";
+import ContactUsSection from "./contact-us";
 import CTASection from "./CTA";
 import OurMissionSection from "./our-mission";
-import ContactUsSection from "./contact-us";
 import OurTeamSection from "./our-team";
+import RecentlyCompletedWorkSection from "./RecentlyCompletedWork";
+import ServiceSection from "./Services/serviceSection";
+import StatsSection from "./stats";
+import WhatWeOfferSection from "./what-we-offer";
+import WhoAreWeSection from "./who-are-we";
 
 const HomePage = () => {
   return (
@@ -83,6 +83,8 @@ const HomePage = () => {
       <WhoAreWeSection />
       <WhatWeOfferSection />
       <CTASection />
+      <RecentlyCompletedWorkSection />
+      <StatsSection />
       <OurMissionSection />
       <OurTeamSection />
       <ContactUsSection />
