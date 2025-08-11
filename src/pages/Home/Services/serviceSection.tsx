@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Icon } from "@iconify/react";
+import { useMediaQuery } from "react-responsive";
 
 const ServiceSection = () => {
   const services = [
@@ -35,8 +36,12 @@ const ServiceSection = () => {
     },
   ];
 
+  const isMobile = useMediaQuery({
+    maxWidth: 768,
+  });
+
   return (
-    <section className="relative bg-gray-50 py-28 overflow-hidden">
+    <section className="relative bg-gray-50 py-16 sm:py-20 md:py-24 lg:py-28 overflow-hidden">
       {/* Decorative curved lines */}
       {/* <div className="absolute bottom-0 right-0 w-96 h-96 opacity-10">
         <svg
@@ -60,14 +65,23 @@ const ServiceSection = () => {
         </svg>
       </div> */}
 
-      <div className="container mx-auto px-4 flex flex-col items-center justify-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+        <div className=" md:hidden mb-12 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 lg:gap-8 mt-6 sm:mt-8 text-center sm:text-left">
+          <p className="text-gray-600 text-base sm:text-lg font-light max-w-2xl">
+            Solutions numériques complètes conçues spécifiquement pour votre
+            entreprise.
+          </p>
+          <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300 whitespace-nowrap">
+            Trouver Votre Solution
+          </button>
+        </div>
         {/* Service Cards */}
-        <div className="flex justify-center items-center gap-8 mb-12">
+        <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-10 lg:mb-12 w-full max-w-4xl">
           {services.map((service) => (
             <div
               key={service.id}
               className={cn(
-                `group relative overflow-hidden w-48 h-48 rounded-none shadow-lg flex flex-col items-center justify-center hover:translate-y-[-10px] transition-all duration-300 hover:shadow-xl ${
+                `group relative overflow-hidden w-full aspect-square rounded-none shadow-lg flex flex-col items-center justify-center hover:translate-y-[-10px] transition-all duration-300 hover:shadow-xl ${
                   service.isActive
                     ? "bg-blue-600 text-white"
                     : "bg-white text-gray-800 border-t-4 border-blue-600"
@@ -82,15 +96,18 @@ const ServiceSection = () => {
               />
               <div
                 className={cn(
-                  "mb-4",
+                  "mb-2 sm:mb-3 lg:mb-4",
                   "group-hover:scale-120 group-hover:transform group-hover:rotate-[360deg] group-hover:text-white group-hover:duration-300 group-hover:ease-in-out"
                 )}
               >
-                <Icon icon={service.icon} className="text-5xl" />
+                <Icon
+                  icon={service.icon}
+                  className="text-3xl sm:text-4xl lg:text-5xl"
+                />
               </div>
               <h3
                 className={cn(
-                  "text-center relative  text-lg font-semibold px-5",
+                  "text-center relative text-sm sm:text-base lg:text-lg font-semibold px-2 sm:px-3 lg:px-5 leading-tight",
                   "group-hover:text-white"
                 )}
               >
@@ -101,20 +118,25 @@ const ServiceSection = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex items-center gap-3 mt-8">
-          <p className="text-gray-600  text-lg font-light">
+        <div className=" hidden md:flex flex-col sm:flex-row items-center gap-4 sm:gap-6 lg:gap-8 mt-6 sm:mt-8 text-center sm:text-left">
+          <p className="text-gray-600 text-base sm:text-lg font-light max-w-2xl">
             Solutions numériques complètes conçues spécifiquement pour votre
             entreprise.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-lg text-xs  font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300">
+          <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300 whitespace-nowrap">
             Trouver Votre Solution
           </button>
         </div>
       </div>
+
+      {/* Responsive decorative image */}
       <img
         src="/img/image-rounder-right.png"
         alt="rounder"
-        className=" absolute h-full right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 opacity-20   animate-spin [animation-duration:10s]"
+        className={cn(
+          "absolute h-full right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 opacity-20 animate-spin [animation-duration:10s]  lg:block",
+          isMobile && "w-full aspect-square"
+        )}
         loading="lazy"
         decoding="async"
         width={200}
