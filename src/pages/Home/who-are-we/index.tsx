@@ -42,8 +42,8 @@ const WhoAreWeSection = () => {
           {/* Left Section - Visuals */}
           <div className="hidden md:inline relative size-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]">
             {/* Main Image */}
-            <div className="absolute top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2">
-              <div className="w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[28rem] aspect-[9/11] bg-gradient-to-br from-gray-200 to-gray-300 rounded-sm relative overflow-hidden">
+            <div className="absolute size-full flex items-center justify-center top-1/2 transform -translate-y-1/2 left-1/2 -translate-x-1/2">
+              <div className="w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[28rem]  aspect-[9/11] bg-gradient-to-br from-gray-200 to-gray-300 rounded-sm relative overflow-hidden">
                 {/* Placeholder for main image - you can replace with actual image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-gray-200 flex items-center justify-center">
                   <div className="text-center">
@@ -59,17 +59,15 @@ const WhoAreWeSection = () => {
                   </div>
                 </div>
                 <img
-                  alt="bg"
+                  alt="bg-main"
                   src="/img/bg-slide-1.webp"
                   className="absolute inset-0 h-full object-cover"
                 />
               </div>
             </div>
 
-            {/* Smaller Image */}
             <div className="absolute top-1/4 right-0 z-0">
               <div className="w-48 h-36 sm:w-56 sm:h-40 lg:w-64 lg:h-48 bg-gradient-to-br from-gray-300 to-gray-400 rounded-sm relative overflow-hidden">
-                {/* Placeholder for smaller image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-gray-300 flex items-center justify-center">
                   <div className="text-center">
                     <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-primary rounded-full mx-auto mb-2 flex items-center justify-center">
@@ -90,8 +88,6 @@ const WhoAreWeSection = () => {
                 />
               </div>
             </div>
-
-            {/* Blue Overlay Box */}
             <div className="absolute bottom-1/4 left-4 sm:left-8 lg:left-12 z-20 bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-sm shadow-lg">
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <div className="flex flex-col items-center">
