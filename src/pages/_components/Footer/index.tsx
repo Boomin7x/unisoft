@@ -14,7 +14,7 @@ const Footer = () => {
               Free Consultation On Your Very First Insurance
             </span>
           </div>
-          <button className="mt-4 md:mt-0 px-6 sm:px-8 py-2 sm:py-3 bg-white text-[#377dff] font-bold rounded shadow hover:bg-gray-100 transition text-xs sm:text-sm">
+          <button className="mt-4 md:mt-0 px-6 sm:px-8 py-2 sm:py-3 bg-white text-primary font-bold rounded shadow hover:bg-gray-100 transition text-xs sm:text-sm">
             GET SOLUTION
           </button>
         </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="flex gap-3 sm:gap-4 text-lg sm:text-xl">
               <a
                 href="https://www.facebook.com"
-                className="hover:text-[#377dff] transition"
+                className="hover:text-primary transition"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/company/univsoft"
-                className="hover:text-[#377dff] transition"
+                className="hover:text-primary transition"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,33 +52,27 @@ const Footer = () => {
           </div>
           {/* Explore */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-[#377dff] w-fit pb-1">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-primary w-fit pb-1">
               Liens Rapides
             </h3>
             <ul className="space-y-1 sm:space-y-2 text-gray-300 text-sm sm:text-base">
               <li>
-                <a
-                  href="#expertise"
-                  className="hover:text-[#377dff] transition"
-                >
+                <a href="#expertise" className="hover:text-primary transition">
                   Notre Expertise
                 </a>
               </li>
               <li>
-                <a
-                  href="#avantages"
-                  className="hover:text-[#377dff] transition"
-                >
+                <a href="#avantages" className="hover:text-primary transition">
                   Pourquoi Nous Choisir
                 </a>
               </li>
               <li>
-                <a href="#valeurs" className="hover:text-[#377dff] transition">
+                <a href="#valeurs" className="hover:text-primary transition">
                   Nos Valeurs
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#377dff] transition">
+                <a href="#contact" className="hover:text-primary transition">
                   Nous Contacter
                 </a>
               </li>
@@ -86,22 +80,22 @@ const Footer = () => {
           </div>
           {/* Contact */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-[#377dff] w-fit pb-1">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-primary w-fit pb-1">
               Contact
             </h3>
             <ul className="space-y-1 sm:space-y-2 text-gray-300 text-sm sm:text-base">
               <li>Cameroun, Yaoundé</li>
               <li className="flex items-center gap-2">
-                <span className="text-[#377dff]">✉️</span> contact@univ-soft.com
+                <span className="text-primary">✉️</span> contact@univ-soft.com
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-[#377dff]">📞</span> +237-696-458-382
+                <span className="text-primary">📞</span> +237-696-458-382
               </li>
             </ul>
           </div>
           {/* Services */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-[#377dff] w-fit pb-1">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 border-b-2 border-primary w-fit pb-1">
               Domaines de Service
             </h3>
             <ul className="space-y-1 sm:space-y-2 text-gray-300 text-sm sm:text-base">

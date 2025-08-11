@@ -47,7 +47,7 @@ const WhoAreWeSection = () => {
                 {/* Placeholder for main image - you can replace with actual image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-gray-200 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-blue-600 rounded-full mx-auto mb-2 sm:mb-3 lg:mb-4 flex items-center justify-center">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-primary rounded-full mx-auto mb-2 sm:mb-3 lg:mb-4 flex items-center justify-center">
                       <Icon
                         icon="material-symbols:person"
                         className="text-white text-xl sm:text-2xl lg:text-3xl"
@@ -72,7 +72,7 @@ const WhoAreWeSection = () => {
                 {/* Placeholder for smaller image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-gray-300 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-blue-600 rounded-full mx-auto mb-2 flex items-center justify-center">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-primary rounded-full mx-auto mb-2 flex items-center justify-center">
                       <Icon
                         icon="material-symbols:groups"
                         className="text-white text-lg sm:text-xl"
@@ -92,7 +92,7 @@ const WhoAreWeSection = () => {
             </div>
 
             {/* Blue Overlay Box */}
-            <div className="absolute bottom-1/4 left-4 sm:left-8 lg:left-12 z-20 bg-blue-600 text-white p-4 sm:p-5 lg:p-6 rounded-sm shadow-lg">
+            <div className="absolute bottom-1/4 left-4 sm:left-8 lg:left-12 z-20 bg-primary text-white p-4 sm:p-5 lg:p-6 rounded-sm shadow-lg">
               <div className="flex items-center space-x-3 sm:space-x-4">
                 <div className="flex flex-col items-center">
                   <Icon
@@ -117,16 +117,16 @@ const WhoAreWeSection = () => {
           <div className="space-y-6 sm:space-y-7 lg:space-y-8">
             {/* Subheading */}
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <span className="text-blue-600 text-xs sm:text-sm font-semibold uppercase tracking-wider">
+              <span className="text-primary text-xs sm:text-sm font-semibold uppercase tracking-wider">
                 QUI NOUS SOMMES
               </span>
-              <div className="w-6 sm:w-8 h-0.5 bg-blue-600"></div>
+              <div className="w-6 sm:w-8 h-0.5 bg-primary"></div>
             </div>
 
             {/* Main Heading */}
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
               Construites sur des{" "}
-              <span className="text-blue-600">Fondations Solides</span>
+              <span className="text-primary">Fondations Solides</span>
             </h2>
             {isMobile ? (
               <div className="w-full aspect-square border relative">
@@ -188,7 +188,7 @@ const WhoAreWeSection = () => {
                   key={value.id}
                   className="flex items-start space-x-3 sm:space-x-4"
                 >
-                  <div className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 bg-primary rounded-full flex items-center justify-center mt-1">
                     <Icon
                       icon="material-symbols:check"
                       className="text-white text-xs sm:text-sm"
@@ -207,7 +207,7 @@ const WhoAreWeSection = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-lg transition-colors duration-300 uppercase tracking-wider text-sm sm:text-base">
+            <button className="bg-primary hover:bg-blue-700 text-white font-semibold py-3 sm:py-4 px-6 sm:px-8 rounded-lg transition-colors duration-300 uppercase tracking-wider text-sm sm:text-base">
               Découvrir Plus
             </button>
           </div>

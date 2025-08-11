@@ -23,15 +23,15 @@ const Navbar = () => {
           <div className="flex items-center gap-2 sm:gap-4 lg:gap-6">
             <a
               href="mailto:contact@univ-soft.com"
-              className="flex items-center gap-1 hover:text-[#377dff] transition-colors"
+              className="flex items-center gap-1 hover:text-primary transition-colors"
               aria-label="Envoyer un email à contact@univ-soft.com"
             >
-              <Mail className="w-3 h-3 sm:w-4 sm:h-4 text-[#377dff]" />
+              <Mail className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
               <span className="inline">contact@univ-soft.com</span>
               <span className="">Email</span>
             </a>
             <span className="hidden sm:flex items-center gap-1">
-              <MapPin className="w-3 h-3 sm:w-4 sm:h-4 text-[#377dff]" />
+              <MapPin className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
               <span className="hidden md:inline">Cameroun, Douala</span>
               <span className="md:hidden">Yaoundé</span>
             </span>
@@ -39,24 +39,21 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center gap-4 xl:gap-6">
             <a
               href="#expertise"
-              className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+              className="hover:text-primary transition-colors whitespace-nowrap"
             >
               Notre Expertise
             </a>
             <span className="opacity-40">/</span>
-            <a href="#team" className="hover:text-[#377dff] transition-colors">
+            <a href="#team" className="hover:text-primary transition-colors">
               Équipe
             </a>
             <span className="opacity-40">/</span>
-            <a
-              href="#contact"
-              className="hover:text-[#377dff] transition-colors"
-            >
+            <a href="#contact" className="hover:text-primary transition-colors">
               Contact
             </a>
             <a
               href="https://www.facebook.com"
-              className="hover:text-[#377dff] transition-colors"
+              className="hover:text-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Ouvrir Facebook dans un nouvel onglet"
@@ -65,7 +62,7 @@ const Navbar = () => {
             </a>
             <a
               href="https://www.linkedin.com/company/univsoft"
-              className="hover:text-[#377dff] transition-colors"
+              className="hover:text-primary transition-colors"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Ouvrir LinkedIn dans un nouvel onglet"
@@ -96,7 +93,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#hero"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   Accueil
                 </a>
@@ -104,7 +101,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   À propos
                 </a>
@@ -112,7 +109,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#expertise"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   Expertise
                 </a>
@@ -120,7 +117,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#work"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   Réalisations
                 </a>
@@ -128,7 +125,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#team"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   Équipe
                 </a>
@@ -136,7 +133,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#contact"
-                  className="hover:text-[#377dff] transition-colors whitespace-nowrap"
+                  className="hover:text-primary transition-colors whitespace-nowrap"
                 >
                   Contact
                 </a>
@@ -147,7 +144,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">
               {/* Search - desktop only */}
               <button
-                className="hidden xl:inline-flex text-[#000B1C] text-xl hover:text-[#377dff] transition-colors"
+                className="hidden xl:inline-flex text-[#000B1C] text-xl hover:text-primary transition-colors"
                 aria-label="Rechercher"
               >
                 <Search className="w-5 h-5" />
@@ -160,7 +157,7 @@ const Navbar = () => {
                 aria-label="Appeler le +237-696-458-382"
               >
                 <span
-                  className="bg-white text-[#377dff] rounded-full p-1 sm:p-1.5 lg:p-2 flex-shrink-0"
+                  className="bg-white text-primary rounded-full p-1 sm:p-1.5 lg:p-2 flex-shrink-0"
                   aria-hidden="true"
                 >
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -262,7 +259,7 @@ const Navbar = () => {
                       aria-label="Appeler le +237-696-458-382"
                     >
                       <span
-                        className="bg-white text-[#377dff] rounded-full p-1.5"
+                        className="bg-white text-primary rounded-full p-1.5"
                         aria-hidden="true"
                       >
                         <Phone className="w-4 h-4" />

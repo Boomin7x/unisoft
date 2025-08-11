@@ -17,7 +17,7 @@ const ContactUsSection = () => {
       <div className="relative z-10 flex w-full">
         <div className="flex flex-col lg:flex-row container mx-auto w-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]">
           <div className="flex w-full lg:w-1/2 items-center justify-center order-2 lg:order-1  sm:p-6 lg:p-8">
-            <div className="w-full max-w-lg bg-[#377dff] bg-opacity-95 md:rounded-sm shadow-xl p-6 sm:p-8">
+            <div className="w-full max-w-lg bg-primary bg-opacity-95 md:rounded-sm shadow-xl p-6 sm:p-8">
               <form className="w-full flex flex-col gap-4 sm:gap-6">
                 <h2 className="text-white text-xl sm:text-2xl lg:text-3xl font-bold mb-2 text-center">
                   Prêt à Transformer Votre Entreprise?
@@ -60,7 +60,7 @@ const ContactUsSection = () => {
 
           <div className="flex w-full lg:w-1/2 flex-col justify-center px-4 sm:px-6 lg:px-10 py-8 sm:py-10 lg:py-12 order-1 lg:order-2 bg-white bg-opacity-90 lg:bg-transparent">
             <div className="max-w-2xl mx-auto lg:mx-0">
-              <span className="uppercase text-[#377dff] font-semibold tracking-wide text-sm sm:text-base mb-2 inline-block">
+              <span className="uppercase text-primary font-semibold tracking-wide text-sm sm:text-base mb-2 inline-block">
                 Contact
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-3 sm:mb-4 leading-tight">
@@ -74,7 +74,7 @@ const ContactUsSection = () => {
               </p>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
                 <span className="inline-flex items-center px-3 sm:px-4 py-2 bg-white rounded shadow border border-gray-200">
-                  <span className="bg-[#377dff] text-white rounded-full p-1.5 sm:p-2 mr-2">
+                  <span className="bg-primary text-white rounded-full p-1.5 sm:p-2 mr-2">
                     <svg
                       viewBox="0 0 20 20"
                       fill="none"
@@ -119,7 +119,7 @@ const ContactUsSection = () => {
                   alt="avatar3"
                   className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-white -ml-2"
                 />
-                <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#377dff] text-white flex items-center justify-center font-bold text-sm sm:text-lg -ml-2">
+                <span className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm sm:text-lg -ml-2">
                   +12
                 </span>
                 <span className="ml-2 sm:ml-4 text-gray-700 text-sm sm:text-base">

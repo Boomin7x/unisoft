@@ -28,7 +28,7 @@ const OurTeamSection = () => (
         <span className="uppercase text-[#377dff] font-semibold tracking-wide text-sm sm:text-base mb-2 inline-block">
           Our Team Mate
         </span>
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 leading-tight">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-6 sm:mb-8 leading-tight">
           Experts Ready to Served
         </h2>
       </div>

@@ -9,7 +9,7 @@ const OurMissionSection = () => {
           className="object-cover w-full h-[40vh] sm:h-[50vh] lg:h-[60vh] min-h-[300px] sm:min-h-[400px] lg:min-h-[500px]"
         />
         {/* Blue vertical bar with play button and vertical text */}
-        <div className="absolute right-0 top-0 h-full w-20 sm:w-24 lg:w-32 bg-[#377dff] flex flex-col items-center justify-center">
+        <div className="absolute right-0 top-0 h-full w-20 sm:w-24 lg:w-32 bg-primary flex flex-col items-center justify-center">
           <div className="flex flex-col items-center gap-4 sm:gap-6 lg:gap-8 h-full justify-center">
             <div className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full bg-white shadow-lg border-2 sm:border-3 lg:border-4 border-blue-100">
               <svg
@@ -41,7 +41,7 @@ const OurMissionSection = () => {
       {/* Right: Content */}
       <div className="flex-1 flex flex-col justify-center px-4 sm:px-6 lg:px-10 py-8 sm:py-10 lg:py-12">
         <div className="max-w-2xl mx-auto">
-          <span className="uppercase text-[#377dff] font-semibold tracking-wide text-sm sm:text-base mb-2 inline-block">
+          <span className="uppercase text-primary font-semibold tracking-wide text-sm sm:text-base mb-2 inline-block">
             Notre Mission
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-3 sm:mb-4 leading-tight">

@@ -87,7 +87,7 @@ const ServiceSection = () => {
             Solutions numériques complètes conçues spécifiquement pour votre
             entreprise.
           </p>
-          <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300 whitespace-nowrap">
+          <button className="bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-900 transition-colors duration-300 whitespace-nowrap">
             Trouver Votre Solution
           </button>
         </div>
@@ -99,14 +99,14 @@ const ServiceSection = () => {
               className={cn(
                 `group relative overflow-hidden w-full aspect-square rounded-none shadow-lg flex flex-col items-center justify-center hover:translate-y-[-10px] transition-all duration-300 hover:shadow-xl ${
                   service.isActive
-                    ? "bg-blue-600 text-white"
-                    : "bg-white text-gray-800 border-t-4 border-blue-600"
+                    ? "bg-primary text-white"
+                    : "bg-white text-gray-800 border-t-4 border-primary"
                 }`
               )}
             >
               <div
                 className={cn(
-                  "absolute inset-0 bg-blue-600 transform transition-all translate-y-full",
+                  "absolute inset-0 bg-primary transform transition-all translate-y-full",
                   "group-hover:translate-y-0 group-hover:duration-300 group-hover:ease-in-out"
                 )}
               />
@@ -139,7 +139,7 @@ const ServiceSection = () => {
             Solutions numériques complètes conçues spécifiquement pour votre
             entreprise.
           </p>
-          <button className="bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300 whitespace-nowrap">
+          <button className="bg-primary text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg text-xs font-semibold uppercase tracking-wide hover:bg-blue-700 transition-colors duration-300 whitespace-nowrap">
             Trouver Votre Solution
           </button>
         </div>
