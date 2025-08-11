@@ -79,7 +79,7 @@ const HomePage = () => {
             {/* Responsive button with enhanced effects */}
             <Button
               asChild
-              className="mt-4 sm:mt-6 md:mt-7 lg:mt-8 xl:mt-10 w-full sm:w-auto px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-sm text-sm sm:text-base font-medium sm:scale-95 hover:scale-100 sm:hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl hover:shadow-primary/25 bg-primary uppercase hover:bg-primary/90"
+              className="mt-4 sm:mt-6 md:mt-7 lg:mt-8 xl:mt-10 w-full sm:w-auto px-4 sm:px-6 md:px-12 py-3 sm:py-6 rounded-xs text-sm sm:text-sm font-medium sm:scale-95 hover:scale-100 sm:hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl hover:shadow-primary/25 bg-primary uppercase hover:bg-primary/90"
             >
               <a
                 href="#contact"

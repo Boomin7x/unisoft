@@ -1,6 +1,6 @@
 const ContactUsSection = () => {
   return (
-    <section className="w-full h-full min-h-[400px] sm:min-h-[500px] lg:min-h-[600px] flex relative">
+    <section className="w-full h-full min-h-[400px] sm:min-h-[500px] lg:min-h-[800px] flex relative">
       <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-3">
         <img
           alt=""
