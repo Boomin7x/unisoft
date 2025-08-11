@@ -42,6 +42,22 @@ const ServiceSection = () => {
 
   return (
     <section className="relative bg-gray-50 py-16 sm:py-20 md:py-24 lg:py-28 overflow-hidden">
+      {/* Responsive decorative image */}
+      <img
+        src="/img/image-rounder-right.png"
+        alt="rounder"
+        className={cn(
+          "absolute h-full max-h-[70%] right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 opacity-20 animate-spin [animation-duration:10s]  lg:block",
+          isMobile &&
+            "size-[18rem] aspect-square right-0 top-1/3 transform   translate-y-0 translate-x-1/2"
+        )}
+        loading="lazy"
+        decoding="async"
+        width={200}
+        height={200}
+        // style={{ width: "auto", maxHeight: "70%" }}
+        // srcSet="/img/image-rounder-right.png 1x, /img/image-rounder-right@2x.png 2x"
+      />
       {/* Decorative curved lines */}
       {/* <div className="absolute bottom-0 right-0 w-96 h-96 opacity-10">
         <svg
@@ -65,7 +81,7 @@ const ServiceSection = () => {
         </svg>
       </div> */}
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col relative items-center justify-center">
         <div className=" md:hidden mb-12 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 lg:gap-8 mt-6 sm:mt-8 text-center sm:text-left">
           <p className="text-gray-600 text-base sm:text-lg font-light max-w-2xl">
             Solutions numériques complètes conçues spécifiquement pour votre
@@ -76,7 +92,7 @@ const ServiceSection = () => {
           </button>
         </div>
         {/* Service Cards */}
-        <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-10 lg:mb-12 w-full max-w-4xl">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-10 lg:mb-12 w-full ">
           {services.map((service) => (
             <div
               key={service.id}
@@ -128,22 +144,6 @@ const ServiceSection = () => {
           </button>
         </div>
       </div>
-
-      {/* Responsive decorative image */}
-      <img
-        src="/img/image-rounder-right.png"
-        alt="rounder"
-        className={cn(
-          "absolute h-full right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 opacity-20 animate-spin [animation-duration:10s]  lg:block",
-          isMobile && "w-full aspect-square"
-        )}
-        loading="lazy"
-        decoding="async"
-        width={200}
-        height={200}
-        style={{ width: "auto", maxHeight: "70%" }}
-        // srcSet="/img/image-rounder-right.png 1x, /img/image-rounder-right@2x.png 2x"
-      />
     </section>
   );
 };
