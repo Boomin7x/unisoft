@@ -88,7 +88,7 @@ const Footer = () => {
               Contact
             </h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Cameroun, Yaoundé</li>
+              <li>Cameroun, Douala</li>
               <li className="flex items-center gap-2">
                 <span className="text-[#377dff]">✉️</span> contact@univ-soft.com
               </li>

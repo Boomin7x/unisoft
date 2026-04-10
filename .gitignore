@@ -26,3 +26,8 @@ dist-ssr
 yarn.lock
 .yarn/
 .yarnrc*
+
+
+*.md
+.claude
+!README.md

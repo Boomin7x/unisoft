@@ -4,6 +4,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -25,7 +26,7 @@ const Navbar = () => {
             <span className="text-[#377dff]" aria-hidden>
               📍
             </span>
-            Cameroun, Yaoundé
+            Cameroun, Douala
           </span>
         </div>
         <div className="hidden md:flex items-center gap-4 sm:gap-6">
@@ -72,7 +73,7 @@ const Navbar = () => {
       <nav className="w-full container mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <img
               src="/img/logo.png"
               alt="Logo Univsoft"
@@ -80,7 +81,7 @@ const Navbar = () => {
               loading="lazy"
               decoding="async"
             />
-          </a>
+          </Link>
 
           {/* Desktop menu */}
           <ul className="hidden md:flex items-center gap-6 lg:gap-8 font-semibold text-sm lg:text-base">
@@ -93,8 +94,16 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <Link
+                to="/products"
+                className="hover:text-[#377dff] transition-colors"
+              >
+                Produits
+              </Link>
+            </li>
+            <li>
               <a
-                href="#about"
+                href="/#about"
                 className="hover:text-[#377dff] transition-colors"
               >
                 À propos
@@ -102,7 +111,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#expertise"
+                href="/#expertise"
                 className="hover:text-[#377dff] transition-colors"
               >
                 Expertise
@@ -118,7 +127,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#team"
+                href="/#team"
                 className="hover:text-[#377dff] transition-colors"
               >
                 Équipe
@@ -126,7 +135,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#contact"
+                href="/#contact"
                 className="hover:text-[#377dff] transition-colors"
               >
                 Contact
@@ -242,7 +251,7 @@ const Navbar = () => {
                 className="p-0 flex flex-col h-full bg-white"
               >
                 <div className="flex items-center justify-between px-4 py-3 border-b border-black/5">
-                  <a href="#hero" className="flex items-center gap-2">
+                  <Link to="/" className="flex items-center gap-2">
                     <img
                       src="/img/logo.png"
                       alt="Logo Univsoft"
@@ -250,7 +259,7 @@ const Navbar = () => {
                       loading="lazy"
                       decoding="async"
                     />
-                  </a>
+                  </Link>
                   {/* <SheetClose asChild>
                     <button
                       className="inline-flex items-center justify-center size-9 rounded-md border border-black/10 text-[#000B1C] hover:bg-black/5 transition-colors"
@@ -283,6 +292,16 @@ const Navbar = () => {
                         >
                           Accueil
                         </a>
+                      </SheetClose>
+                    </li>
+                    <li>
+                      <SheetClose asChild>
+                        <Link
+                          to="/products"
+                          className="block px-4 py-3 rounded-md hover:bg-black/5 font-semibold text-lg"
+                        >
+                          Produits
+                        </Link>
                       </SheetClose>
                     </li>
                     <li>
