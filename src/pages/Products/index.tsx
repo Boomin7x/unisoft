@@ -36,6 +36,10 @@ const ProductsPage = () => {
         return 'mdi:cart';
       case 'Juridique':
         return 'mdi:gavel';
+      case 'Insurance Management':
+        return 'mdi:shield-account';
+      case 'Gestion d\'Inventaire':
+        return 'mdi:warehouse';
       case 'Ressources Humaines':
         return 'mdi:account-group';
       case 'Collaboration':
